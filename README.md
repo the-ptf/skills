@@ -9,7 +9,7 @@ Skills open-source para agentes de código, feitas pela comunidade. Qualquer pes
 No Claude Code:
 
 ```
-/plugin marketplace add the-ptf/ptfskills
+/plugin marketplace add the-ptf/skills
 /plugin install ptf@ptf
 ```
 

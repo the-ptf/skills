@@ -6,7 +6,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { categoryLabel, loadSkills } from "./skills.mjs";
 
-const REPO = "https://github.com/the-ptf/ptfskills";
+const REPO = "https://github.com/the-ptf/skills";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const skillsDir = resolve(process.argv[2] ?? join(root, "skills"));
 const outDir = resolve(process.argv[3] ?? join(root, "dist"));
@@ -64,7 +64,7 @@ li p { margin: 0; }
 <main>
 <h1><img src="logo.png" alt="" width="56" height="56"> PTF Skills</h1>
 <p class="muted">Skills open-source para agentes de código, feitas pela comunidade. <a href="${REPO}">Mande a sua</a>.</p>
-<pre><code>/plugin marketplace add the-ptf/ptfskills
+<pre><code>/plugin marketplace add the-ptf/skills
 /plugin install ptf@ptf</code></pre>
 ${
   skills.length
