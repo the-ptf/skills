@@ -1,0 +1,10 @@
+{
+  "name": "ptfskills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-skills.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "build": "node scripts/build-site.mjs"
+  }
+}

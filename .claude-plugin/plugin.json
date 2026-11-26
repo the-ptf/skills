@@ -1,0 +1,10 @@
+{
+  "name": "ptf",
+  "version": "0.1.0",
+  "description": "Skills open-source da comunidade PTF para agentes de código.",
+  "homepage": "https://github.com/the-ptf/ptfskills",
+  "repository": "https://github.com/the-ptf/ptfskills",
+  "license": "MIT",
+  "keywords": ["skills", "pt-br", "agentes"],
+  "author": { "name": "PTF", "url": "https://github.com/the-ptf" }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ptf",
+  "owner": { "name": "PTF", "url": "https://github.com/the-ptf" },
+  "metadata": { "description": "Skills open-source da comunidade PTF." },
+  "plugins": [
+    {
+      "name": "ptf",
+      "source": "./",
+      "description": "Todas as skills da PTF num plugin só."
+    }
+  ]
+}
